@@ -1,0 +1,60 @@
+.banner {
+  height: 0px;
+  max-width: 800px;
+  margin: 13em auto 40px auto;
+  background-color: blue;
+  display: flex;
+  text-align: center;
+}
+
+.center-me {
+  color: white;
+  font-size: 25px;
+  margin: auto;
+}
+
+#MyBackground {
+  opacity: 0.6;
+  background: #34e89e;
+  background: -webkit-linear-gradient(to right, #0f3443, #34e89e);
+  background: linear-gradient(to right, #0f3443, #34e89e);
+}
+
+#cmd {
+  display: flex;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 5px;
+  overflow: hidden;
+}
+#cmd span {
+  margin-top: -0.4em;
+  white-space: pre;
+}
+#cursor {
+  width: 1px;
+  height: 84px;
+  margin-top: 0em;
+  /* background: #21f838; */
+  background: #ffffff;
+}
+input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  margin-top: -1em;
+}
+div#cmd {
+  padding-left: 2em;
+  background: transparent;
+  font-size: 4em;
+}
+
+/* Aurora Logo */
+img.OurLogo {
+  max-width: 10%;
+  display: flex;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
